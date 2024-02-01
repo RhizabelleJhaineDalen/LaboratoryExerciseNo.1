@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKozY.woff2) format ('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+body{
+  font-family: "Roboto";
+  font-size: 16px;
+  background-image: url("./images/pexels-steve-johnson-1266808.jpg");
+}
+
+nav{
+width:100%;
+text-align: right;
+}
+
+nav ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+nav ul li{
+  margin-left: 2px;
+  text-align: center;
+}
+
+nav ul li a{
+  display: block;
+  float: left;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border:1px solid white;
+  background-color: #597aed;
+  color: white;
+  text-decoration: none;
+}
+
+ul li:hover a{
+  background-color: #1226ed;
+  color: white;
+}
+
+aside{
+  float: right;
+  width: 25%;
+  margin-right: 0;
+  margin-left: 1%;
+  padding:10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+
+}
+
+article{
+  text-align: justify;
+}
+
+input .search{
+  width: 220px;
+}
+
+.container{
+  width: 1024px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+footer{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+  padding: 10px;
+  font-size: 0.8em;
+}
+
+footer p{
+  text-align: center;
+  margin: 0px;
+}
